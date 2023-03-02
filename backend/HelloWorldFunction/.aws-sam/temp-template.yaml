@@ -1,0 +1,11 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: helloworld.App
+      CodeUri: /Users/samshulman/Desktop/CompSci/ArithmeticPuzzle/HelloWorldFunction
+      Runtime: java11
+      Architectures:
+        - x86_64
